@@ -1,0 +1,8 @@
+verilog work "BCDconvert1.v"
+verilog work "vga_controller_640_60.v"
+verilog work "dispCycle.v"
+verilog work "debounce.v"
+verilog work "clk_div2.v"
+verilog work "clk_div1.v"
+verilog work "bin_to_seg.v"
+verilog work "vga_display.v"

@@ -1,0 +1,18 @@
+CoreGen has not been configured with any user repositories.
+CoreGen has been configured with the following Xilinx repositories:
+ - 'C:\Xilinx\13.3\ISE_DS\ISE\coregen\' [reloaded]
+INFO:sim - Generating component instance 'game_over_mem' of
+   'xilinx.com:ip:blk_mem_gen:6.2' from
+   'C:\Xilinx\13.3\ISE_DS\ISE\coregen\ip\xilinx\primary\com\xilinx\ip\blk_mem_ge
+   n_v6_2\component.xml'.
+Applying current project options...
+Finished applying current project options.
+ERROR:sim - Unable to find X:\EC551\image\game_over_coe.coe
+ERROR:sim -    Coregen is looking for X:\EC551\image\game_over_coe.coe
+ERROR:sim - Unable to find X:\EC551\image\game_over_coe.coe
+ERROR:sim -    Coregen is looking for X:\EC551\image\game_over_coe.coe
+ERROR:sim - An invalid core configuration has been detected during
+ERROR:sim -    Customization. Core parameters will be reset to their default
+   values.
+Cancelled executing Tcl generator.
+Wrote CGP file for project 'game_over_mem'.

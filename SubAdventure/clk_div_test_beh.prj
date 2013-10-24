@@ -1,0 +1,3 @@
+verilog work "clk_div1.v"
+verilog work "clk_div_test.v"
+verilog work "C:/Xilinx/13.3/ISE_DS/ISE//verilog/src/glbl.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "X:/My Documents/ec311 Lab/JetpackGame/clk_div_test_isim_beh.exe" -prj "X:/My Documents/ec311 Lab/JetpackGame/clk_div_test_beh.prj" "work.clk_div_test" "work.glbl" 

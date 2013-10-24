@@ -1,0 +1,987 @@
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+xst -intstyle ise -ifn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.xst" -ofn "X:/My Documents/ec311 Lab/JetpackGame/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 "JetpackGame.ngc" JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim JetpackGame.ngc JetpackGame_synthesis.v 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 
+xst -intstyle ise -ifn "X:/Desktop/SubAdventure/JetpackGame.xst" -ofn "X:/Desktop/SubAdventure/JetpackGame.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc vga_display.ucf -p xc6slx16-csg324-3 JetpackGame.ngc JetpackGame.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o JetpackGame_map.ncd JetpackGame.ngd JetpackGame.pcf 
+par -w -intstyle ise -ol high -mt off JetpackGame_map.ncd JetpackGame.ncd JetpackGame.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml JetpackGame.twx JetpackGame.ncd -o JetpackGame.twr JetpackGame.pcf -ucf vga_display.ucf 
+bitgen -intstyle ise -f JetpackGame.ut JetpackGame.ncd 

@@ -1,0 +1,15 @@
+Release 13.3 Drc O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Tue Apr 16 14:22:37 2013
+
+drc -z vga_display.ncd vga_display.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net B_S/_n0033<1> is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net ck1K/clk_1kHZ is sourced by
+   a combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+DRC detected 0 errors and 2 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
