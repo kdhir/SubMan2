@@ -1,4 +1,4 @@
 SubMan2
 =======
 
-SubMan2
+Project for Logic Design
